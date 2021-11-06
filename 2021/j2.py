@@ -1,5 +1,3 @@
-from sys import stdin
-
 bids = []
 number_of_bids = int(input())
 

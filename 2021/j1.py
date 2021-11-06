@@ -11,8 +11,6 @@ At S, P = 100 kPa, B = 100°C
 P = 5 x B - 400
 """
 
-from sys import stdin
-
 PRESSURE_AT_SL = 100
 
 
@@ -25,17 +23,18 @@ def find_pressure_from_boiling_point(boiling: int) -> int:
 
 
 def determine_sea_level(pressure: int) -> int:
+    """Determines the sea level with the provided pressure"""
 
     if pressure < PRESSURE_AT_SL:
         return 1
     elif pressure > PRESSURE_AT_SL:
         return -1
-    else:
-        return 0
+
+    return 0
 
 
-B = int(input())
-P = find_pressure_from_boiling_point((B))
+boiling = int(input())
+pressure = find_pressure_from_boiling_point((boiling))
 
-print(P)
-print(determine_sea_level((P)))
+print(pressure)
+print(determine_sea_level((pressure)))
