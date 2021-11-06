@@ -34,7 +34,7 @@ def determine_sea_level(pressure: int) -> int:
         return 0
 
 
-B = int(stdin.readline())
+B = int(input())
 P = find_pressure_from_boiling_point((B))
 
 print(P)
