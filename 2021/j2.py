@@ -1,3 +1,5 @@
+# 15/15
+
 bids = []
 number_of_bids = int(input())
 

@@ -1,15 +1,4 @@
-"""
-S = Sea Level
-P = Atmospheric Pressure
-B = Water Boiling Point
-
-At S, P = 100 kPa, B = 100°C
-
-+ S => -P, -B
-- S => +P, +B
-
-P = 5 x B - 400
-"""
+# 15/15
 
 PRESSURE_AT_SL = 100
 

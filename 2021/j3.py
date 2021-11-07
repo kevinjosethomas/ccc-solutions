@@ -1,13 +1,4 @@
-"""
-Five digits
-
-0, 1
-+odd = left
-+even, not 0 = right
-+0 = same as previous
-
-2, 3, 4
-"""
+# 15/15
 
 instructions = []
 last_direction = None
