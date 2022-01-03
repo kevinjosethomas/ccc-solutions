@@ -1,3 +1,5 @@
+# 15/15
+
 long_string = input()
 short_string = input()
 

@@ -1,3 +1,5 @@
+# 15/15
+
 rows = int(input())  # M
 columns = int(input())  # N
 num_of_instructions = int(input())  # K

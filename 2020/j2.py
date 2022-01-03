@@ -1,3 +1,5 @@
+# 15/15
+
 tipping_point = int(input())
 infected = int(input())
 infection_rate = int(input())

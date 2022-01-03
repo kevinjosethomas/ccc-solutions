@@ -1,3 +1,5 @@
+# 7/15
+
 combinations = tuple(tuple(input().split()) for _ in range(3))
 
 num_of_steps, original, final = input().split()

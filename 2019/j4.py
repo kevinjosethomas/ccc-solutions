@@ -1,3 +1,5 @@
+# 15/15
+
 grid = [["1", "2"], ["3", "4"]]
 instructions = input()
 

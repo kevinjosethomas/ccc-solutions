@@ -1,3 +1,5 @@
+# 15/15
+
 number_of_lines = int(input())
 
 compressed_messages = []

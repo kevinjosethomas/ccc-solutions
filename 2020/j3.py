@@ -1,3 +1,5 @@
+# 15/15
+
 num_of_flicks = int(input())
 
 art = []
